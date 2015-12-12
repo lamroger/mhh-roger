@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<ul>
+  <li>Name: <span> <%= @survey.name %> </span></li>
+  <li>Age: <span> <%= @survey.age %> </span></li>
+</ul>
+
+<%= link_to 'Edit', edit_survey_path(@survey) %> |
+<%= link_to 'Back', surveys_path %>
